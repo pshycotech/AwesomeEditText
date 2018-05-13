@@ -28,7 +28,12 @@ Add it in your XML Layout :
 
 Methods :
 
-setErrorEnabled(boolean) : to enable error
-setError(String) : to set error
-getText() : to get text
-setText(String) : to set text
+
+| Methods       | Usage         |
+| ------------- | ------------- |
+| setErrorEnabled(boolean)  | To Enable/Disable Error  |
+| isErrorEnabled()  | To Get Enable/Disable Error  |
+| setError(String) | To Set Error |
+| getError() | To Get Error |
+| setText(String) | To Set Text |
+| getText() | To Get Text |
