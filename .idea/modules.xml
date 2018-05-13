@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AwesomeEditText.iml" filepath="$PROJECT_DIR$/AwesomeEditText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AwesomeEdittext/AwesomeEdittext.iml" filepath="$PROJECT_DIR$/AwesomeEdittext/AwesomeEdittext.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
