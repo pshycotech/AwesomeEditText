@@ -17,6 +17,10 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
+/*
+   Created by PARTH PATEL : Pshyco Technology
+*/
+
 public class AwesomeEditText extends LinearLayout {
 
     private Context context;
@@ -71,18 +75,6 @@ public class AwesomeEditText extends LinearLayout {
         textInputLayout.setError(errorText);
     }
 
-    public void setError(String error) {
-        textInputLayout.setError(error);
-    }
-
-    public void setErrorEnabled(boolean error) {
-        textInputLayout.setErrorEnabled(error);
-    }
-
-    public void setHint(String text) {
-        textInputLayout.setHint(text);
-    }
-
     public void setKeyListener(KeyListener input) {
         textInputEditText.setKeyListener(input);
     }
@@ -135,12 +127,28 @@ public class AwesomeEditText extends LinearLayout {
         return textInputEditText;
     }
 
+    public void setError(String error) {
+        textInputLayout.setError(error);
+    }
+
+    public void setErrorEnabled(boolean error) {
+        textInputLayout.setErrorEnabled(error);
+    }
+
+    public void setHint(String text) {
+        textInputLayout.setHint(text);
+    }
+
     public String getHintText() {
-        return hintText;
+        return textInputLayout.getHint().toString();
     }
 
     public String getErrorText() {
-        return errorText;
+        return textInputLayout.getError().toString();
+    }
+
+    public boolean isErrorEnabled() {
+        return textInputLayout.isErrorEnabled();
     }
 
     @Override
