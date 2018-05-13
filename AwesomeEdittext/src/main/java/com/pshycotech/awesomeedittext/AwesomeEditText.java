@@ -67,6 +67,7 @@ public class AwesomeEditText extends LinearLayout {
 
         textInputEditText.setText(text);
         textInputLayout.setHint(hintText);
+        textInputLayout.setErrorEnabled(false);
         textInputLayout.setError(errorText);
     }
 
@@ -124,6 +125,22 @@ public class AwesomeEditText extends LinearLayout {
 
     public void setTypeface(Typeface tf) {
         textInputEditText.setTypeface(tf);
+    }
+
+    public TextInputLayout getTextInputLayout() {
+        return textInputLayout;
+    }
+
+    public TextInputEditText getTextInputEditText() {
+        return textInputEditText;
+    }
+
+    public String getHintText() {
+        return hintText;
+    }
+
+    public String getErrorText() {
+        return errorText;
     }
 
     @Override
