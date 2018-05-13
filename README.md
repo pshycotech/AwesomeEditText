@@ -35,5 +35,7 @@ Methods :
 | isErrorEnabled()  | To Get Enable/Disable Error  |
 | setError(String) | To Set Error |
 | getError() | To Get Error |
+| setHint(String) | To Set Hint |
+| getHintText() | To Get Hint |
 | setText(String) | To Set Text |
 | getText() | To Get Text |
